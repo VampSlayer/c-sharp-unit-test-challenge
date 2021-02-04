@@ -1,14 +1,13 @@
 {
-	"Snowboards": [
-		{ "type": "Beginer", "brand": "K2", "stock": 1, "id": 1 },
-		{ "type": "Tricks", "brand": "K2", "stock": 0, "id": 3 },
-		{ "type": "Short", "brand": "Smith", "stock": 8, "id": 3 },
-		{ "type": "Pro", "brand": "Smith", "stock": 11, "id": 4 }
-	],
-	"Skis": [
-		{ "type": "Long", "brand": "Nike", "stock": 3, "id": 1 },
-		{ "type": "Speed", "brand": "Nike", "stock": 9, "id": 2 },
-		{ "type": "Casual", "brand": "Smith", "stock": 1, "id": 3 },
-		{ "type": "Cross", "brand": "Smith", "stock": 5, "id": 4 }
-	]
-}
+	"Post": {
+	  "title": "string",
+	  "views": "int",
+	  "published": "boolean",
+	  "createdAt": "date",
+	  "comments": "Comment[]"
+	},
+	"Comment": {
+	  "body": "string",
+	  "post": "Post"
+	}
+  }
