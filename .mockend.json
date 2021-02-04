@@ -3,23 +3,15 @@
 		"type": "string", 
 		"brand": "string", 
 		"stock": "int", 
-		"id": "int"
+		"id": "int",
+		"bindings": "boolean",
+		"length": "int"
 	},
 	"Ski": {
 		"type": "string", 
 		"brand": "string", 
 		"stock": "int", 
-		"id": "int"
-	},
-	"User": {
 		"id": "int",
-		"name": "string",
-		"createdAt": "date"
-	},
-	"Purchase": {
-		"id": "int",
-		"item": "Snowboard",
-		"user": "User",
-		"boughtOn": "date"
+		"poles": "boolean"
 	}
   }
