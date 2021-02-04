@@ -29,9 +29,9 @@ namespace SnowShop.Tests
         }
         
         [Theory]
-        [InlineData(1, 10)]
-        [InlineData(50, 10)]
-        [InlineData(100, 10)]
+        [InlineData(1, 9)]
+        [InlineData(5, 4)]
+        [InlineData(10, 0)]
         public async Task FindSnowboardsWithLengthGreaterThan_ShouldReturnExpectedNumberOfSnowboards_WhenGivenLengthOf(int length, int expected)
         {
             // arrange

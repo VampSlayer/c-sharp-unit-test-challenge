@@ -19,7 +19,7 @@ namespace SnowShop
         {
             var skis = await FindStock(0, "snowboards");
 
-            return skis.Where(x => x["length"] >= length).ToList();
+            return skis.Where(x => x["length"] > length).ToList();
         }
     }
 }
