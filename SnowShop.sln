@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShop", "SnowShop.csproj", "{BAA64EF7-4F24-434F-9517-2D3CB3C9FB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShop.Tests", "SnowShop.Tests\SnowShop.Tests.csproj", "{5E03A7E9-BC1F-4031-92DF-ED6768769557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShop.App", "SnowShop.App\SnowShop.App.csproj", "{F09A9A9D-F34A-43AA-A936-122553523869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAA64EF7-4F24-434F-9517-2D3CB3C9FB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA64EF7-4F24-434F-9517-2D3CB3C9FB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA64EF7-4F24-434F-9517-2D3CB3C9FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA64EF7-4F24-434F-9517-2D3CB3C9FB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E03A7E9-BC1F-4031-92DF-ED6768769557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E03A7E9-BC1F-4031-92DF-ED6768769557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E03A7E9-BC1F-4031-92DF-ED6768769557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E03A7E9-BC1F-4031-92DF-ED6768769557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09A9A9D-F34A-43AA-A936-122553523869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09A9A9D-F34A-43AA-A936-122553523869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09A9A9D-F34A-43AA-A936-122553523869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09A9A9D-F34A-43AA-A936-122553523869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
