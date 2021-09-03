@@ -1,17 +1,39 @@
 {
-	"Snowboard": {
-		"type": "string", 
-		"brand": "string", 
-		"stock": "int", 
-		"id": "int",
-		"bindings": "boolean",
-		"length": "int"
-	},
-	"Ski": {
-		"type": "string", 
-		"brand": "string", 
-		"stock": "int", 
-		"id": "int",
-		"poles": "boolean"
-	}
+  "Snowboard": {
+    "type": {
+      "string": {}
+    },
+    "brand": {
+      "string": {}
+    },
+    "stock": {
+      "int": {}
+    },
+    "id": {
+      "int": {}
+    },
+    "bindings": {
+      "boolean": {}
+    },
+    "length": {
+      "int": {}
+    }
+  },
+  "Ski": {
+    "type": {
+      "string": {}
+    },
+    "brand": {
+      "string": {}
+    },
+    "stock": {
+      "int": {}
+    },
+    "id": {
+      "int": {}
+    },
+    "poles": {
+      "boolean": {}
+    }
   }
+}
